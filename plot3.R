@@ -25,6 +25,7 @@ plot3 <- function() {
     download_and_unzip(
         url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip",
         destfile = "data/exdata-data-NEI_data.zip")
+    load_libraries()
     
     NEI <- readRDS("data/summarySCC_PM25.rds")
     NEI <- NEI[NEI$fips == "24510", c("Emissions", "year", "type")]
