@@ -33,7 +33,7 @@ plot2 <- function() {
              x = Year,
              y = Emissions,
              type = "b",
-             main = "Baltimore City, Maryland PM2.5 Emissions Trend",
+             main = expression("Baltimore City, Maryland " * PM[2.5] * " Emissions Trend"),
              ylab = "",
              las = 1)
     )

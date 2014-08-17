@@ -33,7 +33,7 @@ plot1 <- function() {
              x = Year,
              y = Emissions,
              type = "b",
-             main = "United States PM2.5 Emissions Trend",
+             main = expression("United States " * PM[2.5] * " Emissions Trend"),
              ylab = "",
              las = 1)
          )
