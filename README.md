@@ -11,7 +11,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 
 The data for this assignment are available from the course web site as a single zip file:
 
-[https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip] (Data for Peer Assessment) [29Mb]
+[https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip](Data for Peer Assessment) [29Mb]
 The zip file contains two files:
 
 PM<sub>2.5</sub> Emissions Data (`summarySCC_PM25.rds`): This file contains a data frame with all of the PM<sub>2.5</sub> emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM<sub>2.5</sub> emitted from a specific type of source for the entire year. Here are the first few rows.
