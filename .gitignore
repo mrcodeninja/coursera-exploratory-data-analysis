@@ -6,3 +6,7 @@
 
 # R data files from past sessions
 .Rdata
+
+data/
+.DS_Store
+.swp
