@@ -18,9 +18,9 @@ plot1 <- function() {
         destfile = "data/exdata-data-NEI_data.zip")
     
     NEI <- readRDS("data/summarySCC_PM25.rds")
-
     NEI <- NEI[, c("Emissions", "year")]
     emissionsSumByYear <- with(NEI, aggregate(Emissions, list(year), sum))
+    rm(NEI)
     names(emissionsSumByYear) <- c("Year", "Emissions")
 
     png("plot1.png")
